@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<img src="assets/imgs/fascia-bot.png" alt="" class="fascia-bot">
+	<h4 class="title">Cool, let's start sign in with your email address.</h4>
+
+	<ion-list>
+
+	  <ion-item class="form-input">
+	    <ion-input type="email" [(ngModel)]="_email" placeholder="Email Address"></ion-input>
+	  </ion-item>
+
+	</ion-list>
+
+	<button ion-button color="dark" outline class="btn-next-right" (click)="open_password()">Next</button>
+</ion-content>

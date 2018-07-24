@@ -1,0 +1,8 @@
+{
+  "name": "link-med",
+  "app_id": "6f307770",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

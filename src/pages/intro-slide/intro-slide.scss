@@ -1,0 +1,83 @@
+page-intro-slide {
+	.swiper-pagination-bullet{
+		border-radius: 0%;
+		width: 30px;
+		height: 4px;
+		background-color: #00A6FF;
+	}
+	.swiper-pagination-bullet-active{
+		background-color: #FF5C5C
+	}
+	.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+		bottom: 52px
+	}
+	h4{
+		line-height: 0.5;
+	}
+
+	.logo img{
+			height: auto;
+			width: auto;
+			margin: auto;
+			display: block;
+			position: absolute;
+		}
+	
+	/* Larger than a phone */
+	@media (min-height: 630px) {
+	  	.slide-title{
+			margin-top: 65%;
+		}
+	}
+
+	/* Small devices such as phone */
+	@media (max-height: 630px) {
+	  	.slide-title{
+			margin-top: 98%;
+		}
+		/*.logo img{
+			height: auto;
+			width: auto;
+			margin: auto;
+			display: block;
+			position: absolute;
+		}*/
+	}
+
+	.right-side{
+		float: right;
+		font-size: 14px;
+		margin-top: -20%;
+	}
+	.slide-0{
+		background: url(../assets/imgs/fascia-bg-white.png) no-repeat center center fixed;
+  		background-size: cover;
+	}
+	.slide-1{
+		background: url(../assets/imgs/slide-1.png) no-repeat center center fixed;
+  		background-size: cover;
+	}
+	.slide-2{
+		background: url(../assets/imgs/slide-2.png) no-repeat center center fixed;
+  		background-size: cover;
+	}
+	.slide-3{
+		background: url(../assets/imgs/slide-3.png) no-repeat center center fixed;
+  		background-size: 80% 50%;
+	}
+	.slide-4{
+		background: url(../assets/imgs/slide-4.png) no-repeat center center fixed;
+  		background-size: 50% 50%;
+	}
+	.portal{
+		border-radius: 8px
+	}
+	.button-inner{
+		text-transform: initial
+	}
+	.label-finish {
+		position: absolute;
+		left: 70vw;
+		color: red;
+	}
+}

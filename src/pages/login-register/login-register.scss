@@ -1,0 +1,29 @@
+page-login-register {
+	/* Larger than a phone */
+	@media (min-height: 630px) {
+	  	.slide-title{
+			margin-top: 65%;
+		}
+	}
+
+	/* Small devices such as phone */
+	@media (max-height: 630px) {
+	  	.slide-title{
+			margin-top: 80vh;
+			text-align: center;
+		}
+	}
+
+	.login-register {
+		background: url(../assets/imgs/slide-4.png) no-repeat center center fixed;
+  		background-size: 80% 50%;
+	}
+	.button-inner{
+		text-transform: initial
+	}
+	.button-outline-md {
+		border-width: 4px;
+	    border-radius: 10px;
+	    width: 150px
+	}
+}
